@@ -1,301 +1,251 @@
-<!DOCTYPE html>
+<!DOCTYPE Html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/vendors/fontawesome/css/all.css">
-    <link rel="stylesheet" href="./assets/vendors/owlcarousel/css/owl.carousel.min.css"/>  
-    <link rel="stylesheet" href="./assets/vendors/owlcarousel/css/owl.theme.default.min.css"/>  
-    <link rel="stylesheet" href="./assets/vendors/glightbox/css/glightbox.min.css">
-    <link rel="stylesheet" href="./assets/vendors/aos/aos.css" />
-    <link rel="stylesheet" href="./assets/vendors/bootstrap/css/bootstrap.css">
-    <link rel="stylesheet" href="./assets/css/style.css" />
-    <link rel="stylesheet" href="./assets/css/dark.css" />
-    <link rel="stylesheet" href="./assets/css/gradient.css" />
-
-  <!-- =======================================================
-  * Template Name: Trendz - v1.0
-  * Template URL: https://abdesigns.com/trendz-free-bootstrap-html-template-corporate/
-  * Author: AB-Designs
-  * License: https://abdesigns.com/license/
-  ======================================================== -->
-
-    <title>Lasisi</title>
-</head>
-<body data-bs-spy="scroll" data-bs-target=".navbar-nav">
-      <!-----------------Heading section----------------->
-
-      <!--Navbar section-->
-      <nav class="navbar navbar-expand-sm fixed-top" id="nav">
-        <!-- Brand and logo section -->
-          <h2 class="navbar-brand m-1 col-lg-2"><a href="index.html"><img src="./assets/imgs/Ellipse 4.png" class="logo rounded-circle" width="50px" height="50px"/></a></h2>
-
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
-              <span><i class="fa-solid fa-bars"></i></span>
-          </button>
-          <div class="collapse navbar-collapse justify-content-end align-items-center" id="collapsibleNavbar">
-              <ul class="navbar-nav">
-                  <div class="menu-links d-flex justify-content-center text-center pt-2">
-                    <li class="nav-item p-2 me-2">
-                        <a class="nav-link active" href="#home">Home</a>
-                    </li>
-                    <li class="nav-item p-2 me-2">
-                        <a class="nav-link" href="#about">About</a>
-                    </li>
-                    <li class="nav-item p-2 me-2">
-                        <a class="nav-link" href="#projects">Projects</a>
-                    </li>
-                    <li class="nav-item p-2 me-2">
-                        <a class="nav-link" href="#contacts">Contacts</a>
-                    </li>
-                  </div>
-                  <li class="nav-item pt-2 socials">
-                      <a href="https://www.facebook.com/lasisi.opeyemi.33?mibextid=LQQJ4d"><i class="fa-brands fa-facebook rounded-circle p-2 ms-4 me-2"></i></a>
-                      <a href="https://github.com/Lasisi-Kemi"><i class="fa-brands fa-github rounded-circle p-2 ms-4 me-2"></i></a>
-                      <a href="https://www.linkedin.com/in/oluwakemi-lasisi-31541b215?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BhVZn6Aq2RXCKMcroNLQwAw%3D%3D"><i class="fa-brands fa-linkedin rounded-circle p-2 ms-4 me-2"></i></a>
-                  </li>
-              </ul>
-          </div>
-      </nav>
-        <!--End of Navbar section-->
-
-        
-        <!--Header texts hero section-->
-        <header class="d-flex justify-content-between align-items-center" id="home">
-                    <div class="box hero col-lg-5 col-md-6">
-                        <h1 data-aos="fade-up">Creative and Innovative frontend developer</h1>
-                        <p data-aos="fade-up" data-aos-delay="200">Hello! I'm Lasisi Oluwakemi Opeyemi, I am a frontend developer,
-                          a trainer (Frontend Develpoment tutor) and Microsoft Office Instructor with three years experience 
-                          in creating visually appealing and user-friendly websites and web applications. I am passionate about 
-                          using my skills in HTML, CSS, and JavaScript to bring design to life and create an engaging user experience. Also, 
-                          I specialize in Designing and creating training manuals, online learning modules, and course materials for 
-                          training because I presently work as a Training and Development Officer.</p>                          
-                        <button class="btn" onclick="document.location='#contacts'" data-aos="fade-up" data-aos-delay="300"><i class="fa-solid fa-envelope"> </i> Connect with me</button>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Kemi codes</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="./assets/fontawesome/css/all.css">
+        <!-- <link rel="icon" type="access/png" href="asset/favicon.png"> -->
+        <link rel="stylesheet" href="./style/bootstrap/css/bootstrap.css"/>
+        <link rel="stylesheet" href="./style/style.css"/>
+    </head>
+    <body>
+       <!-- Header section -->
+       <header class="header fixed-top">
+            <div class="max_width header-nav">
+                <a href="index.html" class="logo-link">Kemi codes</a>
+                <div class="header-nav-upper">
+                    <a href="./assets/Lasisi_Oluwakemi.pdf" download="resume" class="header-nav-upper-first">See resume</a>
+                    <a href="#get-in-touch" class="header-nav-upper-second">Get in touch</a>
+                </div>
+                <div class="nav_mobile">
+                    <nav class="navbar navbar-expand-lg navbar-light" id="fullNav">
+                        <a href="" class="header-nav-upper-second">Get in touch</a>
+                        <button class="navbar-toggler navbutton-nav" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                            <span><img src="./assets/harmburger.svg"></span>
+                        </button>
+                        <div class="collapse navbar-collapse nav_mobile-bg" id="navbarNav" >
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="index.html">HOME</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="https://github.com/Lasisi-Kemi" class="nav-link">MY GITHUB</a>
+                                </li>
+                                <li class="nav-item button-cv">
+                                    <a href="./assets/Lasisi_Oluwakemi.pdf" download="resume" class="nav-link">Resume/CV</a></button>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+       </header>
+       <!--ends here-->
+       <section class="introduction">
+            <div class="max_width">
+                <div>
+                    <div class="introduction-links">
+                        <a href="index.html" class="active">HOME</a>
+                        <a href="" class="github-link">MY GITHUB</a>
                     </div>
-                    <img src="./assets/imgs/Opeyemi.jpg" alt="user" data-aos="zoom-in"/>
-        </header><!-- End of header texts hero section -->
-
- 
-       <!--About us section-->
-       <section id="about" class="about">
-        <div class="heading text-center p-4 pe-4">
-            <h4 class="text-center" data-aos="fade-up">About me</h4>
-            <h2 class="pb-3" data-aos="fade-up" data-aos-delay="200">Offering Values, Integrity and Excellence</h2>
-            <p class="" data-aos="fade-up" data-aos-delay="300">
-              As frontend designer, I have a strong understanding of responsive design and cross-browser compatibility, and I 
-              always stay-up-to-date with the latest web development trends and technologies. I have considerate experience in working 
-              with React js.
-              I am a team player and I enjoy working in a collaborative environment. I am committed to delivering hight-quality 
-              work and I am always willing to go the extra mile to meet project deadlines. Also, I am a facilitator for Girls In Science 
-              and Technology (GIST) in Ijebu-Ode, Ogun State. The Girls' in Science and technology mission is to raise girls' awareness of science 
-              and technology as a life-skill and an avenue to succeed as citizens in a global society.
-              The GIST project is implemented to increase girl child interest in STEM through problem-based learning activities and 
-              collaboration learning. The program contents include Microsoft Digital Literacy, Graphic and web Design, Coding/Prograamming 
-              and Robotics with basic science projects to teach scientific concepts and research.
-            </p>
-            <button class="btn" data-aos="fade-up" data-aos-delay="400"><a href="./assets/Lasisi-Oluwakemi-CV.pdf" download="resume">Download resume</a></button>
+                    <div class="introduction-details">
+                        <p class="introduction-details-first">Coding the Future</p>
+                        <div class="introduction-details-second">
+                            <p class="introduction-details-second-text">Expert Frontend Developer and Dedicated Tech Instructor Guiding and 
+                                Inspiring Aspiring Developers to Excel in the Digital Realm
+                            </p>
+                            <p class="introduction-details-lowerpart-textmobile">Mastering the Art of User Interface Creation and Sharing Technical Wisdom 
+                                to Cultivate the Innovators of Tomorrow
+                            </p>
+                            <div class="introduction-details-second-image"></div>
+                        </div>
+                        <div class="introduction-details-lowerpart">
+                            <div class="introduction-details-lowerpart-details">
+                                <a href="" class="">Get in touch</a>
+                                <p class="">2+ years experience</p>
+                            </div>
+                            <p class="introduction-details-lowerpart-text">Mastering the Art of User Interface Creation and Sharing Technical Wisdom 
+                                to Cultivate the Innovators of Tomorrow
+                            </p>
+                            <div class="introduction-details-lowerpart-mobile"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+       </section>
+       <section class="aboutme">
+            <div class="max_width">
+                <div class="aboutme-section">
+                    <p class="aboutme-section-text">About me</p>
+                    <div class="aboutme-section-flex">
+                        <div class="aboutme-section-flex-first">
+                            <p class="aboutme-section-flex-first-text">I am a passionate Frontend Developer and Seasoned Tech Instructor with a Mission 
+                                to Fuse Aesthetics and Functionality in the Digital Landscape. Equipped with a 
+                                Depth of Industry Experience and a Drive to Educate and Empower the Tech Visionaries 
+                                of Tomorrow.
+                            </p>
+                            <p class="aboutme-section-flex-first-job">Currently working at Exquitec <span><img src="./assets/arrow.svg"></span></p>
+                            <p class="aboutme-section-flex-first-tools">Tools</p>
+                            <div class="aboutme-section-flex-first-toolsdiv">
+                                <div class="tools">
+                                    <p>Bootstrap</p>
+                                    <p class="tools-top">JavaScript</p>
+                                </div>
+                                <div>
+                                    <p>HTML5</p>
+                                    <p class="tools-top">Wordpress</p>
+                                </div>
+                                <div>
+                                    <p>CSS</p>
+                                    <p class="tools-top">Webflow</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="aboutme-section-flex-second">
+                            <p class="aboutme-section-flex-second-text">Personal projects</p>
+                            <div class="aboutme-section-flex-second-projects">
+                                <div class="aboutme-section-flex-second-projects-shadowbox">
+                                    <div class="aboutme-section-flex-second-projects-shadowbox-box box1">
+                                        <p><a href="https://lasisi-kemi.github.io/Tritravel-Transport-Management-System/">Visit site</a> <span><img src="./assets/smallarrow.svg"></span></p>
+                                    </div>
+                                </div>
+                                <div class="aboutme-section-flex-second-projects-shadowbox">
+                                    <div class="aboutme-section-flex-second-projects-shadowbox-box box2">
+                                        <p><a href="https://lasisi-kemi.github.io/Fashion-Envato/">Visit site</a> <span><img src="./assets/smallarrow.svg"></span></p>
+                                    </div>
+                                </div>
+                                <div class="aboutme-section-flex-second-projects-shadowbox">
+                                    <div class="aboutme-section-flex-second-projects-shadowbox-box box3">
+                                        <p><a href="https://lasisi-kemi.github.io/soundwave/">Visit site</a> <span><img src="./assets/smallarrow.svg"></span></p>
+                                    </div>
+                                </div>
+                                <div class="aboutme-section-flex-second-projects-shadowbox">
+                                    <div class="aboutme-section-flex-second-projects-shadowbox-box box4">
+                                        <p><a href="https://lasisi-kemi.github.io/HI-FI/">Visit site</a> <span><img src="./assets/smallarrow.svg"></span></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+       </section>
+       <section class="personalexperience">
+        <div class="max_width">
+            <div class="personalexperience-section">
+                <p class="aboutme-section-text">Work experience</p>
+                <div class="aboutme-section-flex-second-projects personalexperience-section-flex">
+                    <div class="personalexperience-section-flex-box">
+                        <p>Grace Definition Church website</p>
+                        <p><a href="https://gracedefinitionchurch.com/">Visit site</a> <span><img src="./assets/smallarrow.svg"></span></p> 
+                    </div>
+                    <div class="personalexperience-section-flex-box">
+                        <p>Mothers' Haven website</p>
+                        <p><a href="https://mothershaven.000webhostapp.com/">Visit site</a> <span><img src="./assets/smallarrow.svg"></span></p> 
+                    </div>
+                    <div class="personalexperience-section-flex-box">
+                        <p>Ma'am TITI Restuarant</p>
+                        <p><a href="https://lasisi-kemi.github.io/Madam-TITI/">Visit site</a> <span><img src="./assets/smallarrow.svg"></span></p> 
+                    </div>
+                    <div class="personalexperience-section-flex-box">
+                        <p>iHealth website</p>
+                        <p><a href="">Visit site</a> <span><img src="./assets/smallarrow.svg"></span></p>
+                    </div>
+                    <div class="personalexperience-section-flex-box">
+                        <p>soltzcrea8 Portfolio</p>
+                        <p><a href="soltzcrea8ive.000webhostapp.com/">Visit site</a> <span><img src="./assets/smallarrow.svg"></span></p>
+                    </div>
+                    <div class="personalexperience-section-flex-box">
+                        <p>Quiz App</p>
+                        <p><a href="https://lasisi-kemi.github.io/Quiz-App/">Visit site</a> <span><img src="./assets/smallarrow.svg"></span></p>
+                    </div>
+                </div>
+            </div>
         </div>
-        
-        <div class="about-list d-flex" data-aos="zoom-in">
-          <div class="card p-3 rounded shadow-sm w-100 text-center">
-            <h5 class="m-2">My Skills</h5>
-            <p class="m-2">MICROSOFT OFFICE SUITE: </p>
-            <p><span>Ms. Word</span> <span>Ms. Excel</span> <span>Ms. PowerPoint</span></p>
-            <p class="m-2">FRONTEND DEVELOPMENT: </p>
-            <p><span>HTML</span> <span>CSS</span> <span>Bootstrap</span> <span>Javascript</span> <span>Webflow</span></p>
-            
-          </div>
+       </section>
+       <section class="hireme">
+        <div class="max_width">
+            <p class="hireme-text">Why you should hire me</p>
+            <p class="hireme-texttwo">Choosing Excellence: Hiring Me as Your Frontend Developer and Tech Instructor</p>
+            <div class="hireme-flex">
+                <div class="hireme-flex-item">
+                    <span class="hireme-flex-item-svg">
+                        <img class="education" src="./assets/education.svg">
+                        <img class="smalleducation" src="./assets/smalleducation.svg">
+                    </span>
+                    <div class="hireme-flex-item-content">
+                        <p class="hireme-flex-item-content-heading">Educator's Heart</p>
+                        <p>My ability to simplify complex 
+                            concepts and foster a growth mindset 
+                            ensures my students thrive and excel.
+                        </p>
+                    </div>
+                </div>
+                <div class="hireme-flex-item">
+                    <span class="hireme-flex-item-svg">
+                        <img class="collaborate" src="./assets/collaborate.svg">
+                        <img class="smallcollaborate" src="./assets/smallcollaborate.svg">
+                    </span>
+                    <div class="hireme-flex-item-content">
+                        <p class="hireme-flex-item-content-heading">Collaborative Spirit</p>
+                        <p>I seamlessly integrate with cross-functional 
+                            teams, valuing open communication and diverse 
+                            perspectives to drive collective success.
+                        </p>
+                    </div>
+                </div>
+                <div class="hireme-flex-item">
+                    <span class="hireme-flex-item-svg">
+                        <img class="code" src="./assets/code.svg">
+                        <img class="smallcode" src="./assets/smallcode.svg">
+                    </span>
+                    <div class="hireme-flex-item-content">
+                        <p class="hireme-flex-item-content-heading">Craftsmanship in Code</p>
+                        <p>With a meticulous eye for detail 
+                            and a creative flair, I consistently 
+                            deliver visually stunning and highly 
+                            functional user interfaces.
+                        </p>
+                    </div>
+                </div>
+            </div>
         </div>
-    </section><!--End of About me section-->
-
-
-<!-- ======= Projects Section ======= -->
-<section id="projects" class="projects">
-  <div class="heading">
-    <h4 data-aos="fade-up">Recent Projects</h4>
-    <h2 class="pb-3" data-aos="fade-up">These are my projects both the one I built and the one I coordinated as an Instructor made with html, css and JavaScript</h2>
-  </div>
-
-  <ul id="portfolio-flters" class="d-flex justify-content-center" data-aos="fade-up" data-aos-delay="100">
-    <li data-filter="*" class="active"><i class="fas fa-list"></i> All</li>
-    <li data-filter="Frontend"><i class="fas fa-tablet"></i> Frontend</li>
-    <li data-filter="Real-life-Projects"><i class="fas fa-desktop"></i> Real-life Projects</li>
-  </ul>
-
-  <div class="gallery" data-aos="fade-up">
-   
-    <div class="project justify-content-between" data-filter="Frontend" data-aos="zoom-in">
-      <div class="texts col-lg-6 col-12">
-        <a href="https://lasisi-kemi.github.io/Tritravel-Transport-Management-System/"><h3> Transportation Management System</h3></a>
-        <p>Tritravel is a transportation system that we used as our project for the Girls in 
-          Science and Technology (GIST) cohort 1. The idea behind this system is to create a transportion that involve
-        tricycle where people of Ijebu-Ode community can order for ride anytime anyday within Ijebu-Ode. Html and css were the technologies used but JavaScript will be added later for more complexity.</p>
-        
-        <a href="https://lasisi-kemi.github.io/Tritravel-Transport-Management-System/" class="py-2 px-4 me-2 links"> <i class="fas fa-eye"></i> live </a>
-        <a href="https://github.com/Lasisi-Kemi/Tritravel-Transport-Management-System.git" class="py-2 px-4 me-2 links"> <i class="fab fa-github"></i> code </a>
-      </div>
-      <a class="portfolio-lightbox col-lg-6 col-12" href="./assets/imgs/projects/Index page.png">
-        <img src="./assets/imgs/projects/Index page.png" width="100%" /> 
-      </a> 
-    </div>
-
-    <div class="project justify-content-between" data-filter="Real-life-Projects" data-aos="zoom-in">
-      <div class="texts col-lg-6 col-12">
-        <a href="https://lasisi-kemi.github.io/Tritravel-Transport-Management-System/"><h3>The Mothers' Haven</h3></a>
-        <p>The Mothers’ Haven is a comprehensive resource for mothers and children. 
-          We are passionate about providing quality health care resources and commited 
-          to ensuring that mothers and children receive the best care possible. 
-          Our mission is to provide  a safe and comfortable environment for moters 
-          and children to recieve the care they need (Capstone Project).
-        </p>
-        <a href="https://mothershaven.000webhostapp.com/" class="py-2 px-4 me-2 links"> <i class="fas fa-eye"></i> live </a>
-        <a href="https://github.com/Lasisi-Kemi/The-Mothers-Haven-php-.git" class="py-2 px-4 me-2 links"> <i class="fab fa-github"></i> code </a>
-      </div>
-      <a class="portfolio-lightbox col-lg-6 col-12" href="./assets/imgs/projects/Frame 48096600.png">
-        <img src="./assets/imgs/projects/Frame 48096600.png" width="100%" /> 
-      </a> 
-    </div>
-
-    <div class="project justify-content-between" data-filter="Frontend" data-aos="zoom-in">
-      <div class="texts col-lg-6 col-12">
-        <a href="https://lasisi-kemi.github.io/Tritravel-Transport-Management-System/"><h3>Kiddiesbox</h3></a>
-        <p>Plan your Kid’s Finances. The future of your Kids deserves a great financial plan.</p>
-        <a href="https://kiddiesbox.webflow.io/" class="py-2 px-4 me-2 links"> <i class="fas fa-eye"></i> live </a>
-        <a href="https://webflow.com/design/kiddiesbox" class="py-2 px-4 me-2 links"> <i class="fab fa-github"></i> code </a>
-      </div>
-      <a class="portfolio-lightbox col-lg-6 col-12" href="./assets/imgs/Rectangle 83.png">
-        <img src="./assets/imgs/Rectangle 83.png" width="100%" /> 
-      </a> 
-    </div>
-
-    <div class="project justify-content-between" data-filter="Frontend" data-aos="zoom-in">
-      <div class="texts col-lg-6 col-12">
-        <a href="https://lasisi-kemi.github.io/Signup-Page/"><h3> Signup page</h3></a>
-        <p>The sign up page is not link to any page but an assignment given to me to design 
-          by my instructor in my tech fellowship (Womentechsters fellowship). Html and css are the technologies used for this project</p>
-        <!--<h6>Features:</h6>
-        <p>Clean user interface, Dark and light theme, Different question categories and levels and so much more</p>-->
-        
-        <a href="https://lasisi-kemi.github.io/Signup-Page/" class="py-2 px-4 me-2 links"> <i class="fas fa-eye"></i> live </a>
-        <a href="https://github.com/Lasisi-Kemi/Signup-Page.git" class="py-2 px-4 me-2 links"> <i class="fab fa-github"></i> code </a>
-      </div>
-      <a class="portfolio-lightbox col-lg-6 col-12" href="./assets/imgs/projects/form-frame-background.png">
-        <img src="./assets/imgs/projects/form-frame-background.png" width="100%" /> 
-      </a> 
-    </div>
-
-    <div class="project justify-content-between" data-filter="Frontend" data-aos="zoom-in">
-      <div class="texts col-lg-6 col-12">
-        <a href="https://lasisi-kemi.github.io/soundwave/"><h3> Soundwave</h3></a>
-        <p>Soundwave is a project my mentor challenged me to build the desktop view within the space of 24hours.</p>
-        <!--<h6>Features:</h6>
-        <p>Clean user interface, Dark and light theme and so much more</p>-->
-        
-        <a href="https://lasisi-kemi.github.io/soundwave/" class="py-2 px-4 me-2 links"> <i class="fas fa-eye"></i> live </a>
-        <a href="https://github.com/Lasisi-Kemi/soundwave.git" class="py-2 px-4 me-2 links"> <i class="fab fa-github"></i> code </a>
-      </div>
-      <a class="portfolio-lightbox col-lg-6 col-12" href="./assets/imgs/projects/covers.jpg">
-        <img src="./assets/imgs/projects/covers.jpg" width="100%" /> 
-      </a> 
-    </div>
-
-    <div class="project justify-content-between" data-filter="Real-life-Projects" data-aos="zoom-in">
-      <div class="texts col-lg-6 col-12">
-        <a href="https://www.behance.net/gallery/133476135/Ecommerce-website-components"><h3> Exquitec MIS</h3></a>
-        <p>Exquitec MIS is an ongoing desktop site, I am currently building for the organisation I'm working with. The management system comprises of 
-          student portal/dashboard, Staff dashboard and admin.</p>
-        <a href="https://lasisi-kemi.github.io/Exquitec-MIS/" class="py-2 px-4 me-2 links"> <i class="fas fa-eye"></i> live </a>
-        <a href="https://github.com/Lasisi-Kemi/Exquitec-MIS.git" class="py-2 px-4 me-2 links"> <i class="fab fa-github"></i> code </a>
-      </div>
-      <a class="portfolio-lightbox col-lg-6 col-12" href="./assets/imgs/projects/Frame 107.png">
-        <img src="./assets/imgs/projects/Frame 107.png" width="100%" /> 
-      </a> 
-    </div>
-    
-    <div class="project justify-content-between" data-filter="Frontend" data-aos="zoom-in">
-      <div class="texts col-lg-6 col-12">
-        <a href="https://lasisi-kemi.github.io/Fashion-Envato/"><h3> Fashion-envato portofilio</h3></a>
-        <p>Fashion-envato portofilio is a project I laid my hand on to test my strength in designing a website that is mobile friendly.</p>
-        <!--<h6>Features:</h6>
-        <p>Clean user interface, Dark and light theme and so much more</p>-->
-        
-        <a href="https://lasisi-kemi.github.io/Fashion-Envato/" class="py-2 px-4 me-2 links"> <i class="fas fa-eye"></i> live </a>
-        <a href="https://github.com/Lasisi-Kemi/Fashion-Envato.git" class="py-2 px-4 me-2 links"> <i class="fab fa-github"></i> code </a>
-      </div>
-      <a class="portfolio-lightbox col-lg-6 col-12" href="./assets/imgs/projects/OPP01.jpg">
-        <img src="./assets/imgs/projects/OPP01.jpg" width="100%" /> 
-      </a> 
-    </div>
-    
-    <div class="project justify-content-between" data-filter="Frontend" data-aos="zoom-in">
-      <div class="texts col-lg-6 col-12">
-        <a href="https://lasisi-kemi.github.io/HI-FI/"><h3> HI-FI</h3></a>
-        <p>Kiddiestune is a kid Podcast content website I'm currently working on. You can view to see the work in progress</p>
-        <!--<h6>Features:</h6>
-        <p>Clean user interface, Dark and light theme and so much more</p>-->
-        
-        <a href="https://lasisi-kemi.github.io/HI-FI/" class="py-2 px-4 me-2 links"> <i class="fas fa-eye"></i> live </a>
-        <a href="https://github.com/Lasisi-Kemi/HI-FI.git" class="py-2 px-4 me-2 links"> <i class="fab fa-github"></i> code </a>
-      </div>
-      <a class="portfolio-lightbox col-lg-6 col-12" href="./assets/imgs/projects/Rectangle 12 (1).png">
-        <img src="./assets/imgs/projects/Rectangle 12 (1).png" width="100%" /> 
-      </a> 
-    </div>
-
-  </div>
-</section><!-- End of projects section -->
-
-
-
-<!-- ======= Footer ======= -->
-<footer id="footer">
-
-<div class="footer-top" id="contacts">
-    <div class="row">
-
-      <div class="col-12 footer-contact text-center">
-          <p><strong>Phone:</strong> <a href="tel:+2348034768601">+2348034768601</a><br>
-          <strong>Email:</strong><a href="mailto:opeyemioluwakemi6@gmail.com"> opeyemioluwakemi6@gmail.com</a><br>
-          </p>
-      </div>
-
-      <!--Social media navigations-->
-      <div class="col-12 footer-links text-center">
-        <p>Connect with me on my social media networks</p>
-        <div class="social-links mt-3">
-          <a href="https://www.facebook.com/lasisi.opeyemi.33?mibextid=LQQJ4d" class="facebook"><i class="fa-brands fa-facebook"></i></a>
-          <a href="https://github.com/Lasisi-Kemi" class="github"><i class="fa-brands fa-github"></i></a>
-          <a href="https://www.instagram.com/opeyemi_lasisi/" class="behance"><i class="fa-brands fa-instagram"></i></a>
-          <a href="https://www.linkedin.com/in/oluwakemi-lasisi-31541b215?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BhVZn6Aq2RXCKMcroNLQwAw%3D%3D" class="linkedin"><i class="fa-brands fa-linkedin"></i></a>
+       </section>
+       <section>
+        <div class="max_width">
+            <div class="semifooter">
+                <p>Frontend Developer and Tech Instructor Inspiring the Next Generation of Coders</p>
+                <div class="semifooter-button">
+                    <a href="" class="header-nav-upper-first">See resume</a>
+                    <a href="" download="resume" class="header-nav-upper-second">Get in touch</a>
+                </div>
+            </div>
         </div>
-      </div><!--End of social media navigations-->
-
-    </div>
-</div>
-
-  <div class="copyright text-center p-4">
-    &copy; Copyright <span>2023</span> All Rights Reserved
-  </div>
-</footer><!-- End Footer -->
-    
-<div id="preloader">
-  <div class="preloader">
-  </div>
-</div>
-
-
-<div id="backToTop">
-  <i class="fas fa-arrow-up rounded-circle shadow"></i>
-</div>
-
-
-
-  <script src="./assets/vendors/jquery/jquery3.9.0.min.js"></script>
-  <script src="./assets/vendors/bootstrap/js/bootstrap.js"></script>  
-  <script src="./assets/vendors/aos/aos.js"></script>
-  <script src="./assets/vendors/glightbox/js/glightbox.min.js"></script>
-  <script src="./assets/js/main.js"></script>
-  <script src="./assets/js/darkmode.js"></script>
-</body>
+       </section>
+       <footer class="footer">
+        <div class="max_width">
+            <div class="footer-content" id="get-in-touch">
+                <p class="footer-content-logo">Kemi codes</p>
+                <p class="footer-content-link"><a href="https://github.com/Lasisi-Kemi">Github</a></p>
+                <p class="footer-content-icons">
+                    <span><a href="https://www.facebook.com/lasisi.opeyemi.33?mibextid=LQQJ4d"><img src="./assets/facebook.svg"></a></span>
+                    <span><a href="https://www.instagram.com/opeyemi_lasisi/"><i class="fa-brands fa-instagram"></i></a></span>
+                    <span><a href="https://www.linkedin.com/in/oluwakemi-lasisi-31541b215?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BhVZn6Aq2RXCKMcroNLQwAw%3D%3D" class="linkedin"><i class="fa-brands fa-linkedin"></i></a></span>
+                    <span><a href=""><img src="./assets/twitter.svg"></a></span>
+                </p>
+            </div>
+        </div>
+       </footer>
+       <!-- Scripts -->
+       <script src="./style/jquery/jquery3.9.0.min.js"></script>
+       <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>     
+       <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+       <script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+       <script src="./style/bootstrap/js/bootstrap.js"></script> 
+    </body>
 </html>
