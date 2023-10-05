@@ -759,6 +759,30 @@ body * {
     letter-spacing: 0.518px;
 }
 
+.personalexperience-section-flex-box1 {
+    background-image: url(../assets/thumbnail\ 001.jpg);
+}
+
+.personalexperience-section-flex-box2 {
+    background-image: url(../assets/articlescreen3.png);
+}
+
+.personalexperience-section-flex-box3 {
+    background-image: url(../assets/Rectangle\ 7\ \(2\).png);
+}
+
+.personalexperience-section-flex-box4 {
+    background-image: url(../assets/Rectangle\ 9.png);
+}
+
+.personalexperience-section-flex-box5 {
+    background-image: url(../assets/solo.jpg);
+}
+
+.personalexperience-section-flex-box6 {
+    background-image: url(../assets/3db230557b7575b294da0f4f4b2f37ee.jpg);
+}
+
 .personalexperience-section-flex-box a {
     color: #FFF;
     text-decoration: none;
